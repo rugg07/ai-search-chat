@@ -1,29 +1,71 @@
-# Create T3 App
+# AI Search Chat
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+A modern chat application built with Next.js, TypeScript, and TailwindCSS that enables intelligent search and conversation capabilities.
 
-## What's next? How do I make an app with this?
+## Features
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- 🚀 Built with Next.js 14 and TypeScript
+- 💅 Styled with TailwindCSS and Shadcn UI
+- 🔍 Intelligent search functionality
+- 💬 Real-time chat interface
+- 🌓 Dark/Light mode support
+- 🔐 Environment variable configuration
+- 📱 Responsive design
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Prerequisites
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+Before you begin, ensure you have the following installed:
+- Node.js (v18 or higher)
+- npm or yarn
 
-## Learn More
+## Getting Started
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+1. Clone the repository:
+```bash
+git clone https://github.com/rugg07/ai-search-chat.git
+cd ai-search-chat
+```
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+3. Create a `.env` file in the root directory and add your environment variables:
+```bash
+cp .env.example .env
+```
 
-## How do I deploy this?
+4. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Project Structure
+
+```
+ai-search-chat/
+├── src/
+│   ├── app/          # Next.js app directory
+│   ├── components/   # React components
+│   ├── lib/          # Utility functions and configurations
+│   └── styles/       # Global styles
+├── public/           # Static assets
+├── prisma/          # Database schema and migrations
+└── ...config files
+```
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Shadcn UI](https://ui.shadcn.com/)
+- [Prisma](https://www.prisma.io/)
+
